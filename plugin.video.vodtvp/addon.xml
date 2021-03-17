@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.vodtvp" name="VOD.TVP.pl" version="0.2.0" provider-name="Merle">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="vodtvp.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pl">Wtyczka VOD.TVP.PL</summary>
+    <summary lang="en">VOD.TVP.PL Plugin</summary>
+    <description lang="pl">Wtyczka umożliwiająca oglądanie VOD.TVP.PL dla Kodi 19.0</description>
+    <description lang="en">Allowing You to watch VOD.TVP.PL for Kodi 19.0</description>
+    <disclaimer lang="pl"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email>mkrzywdz at gmail dot com</email>
+    <source></source>
+  </extension>
+</addon>
